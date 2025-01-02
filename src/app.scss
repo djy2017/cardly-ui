@@ -1,0 +1,495 @@
+/******** 透明度 *******/
+.op-10 {
+  opacity: 0.1;
+}
+.op-15 {
+  opacity: 0.15;
+}
+.op-20 {
+  opacity: 0.2;
+}
+.op-30 {
+  opacity: 0.3;
+}
+.op-35 {
+  opacity: 0.35;
+}
+.op-40 {
+  opacity: 0.4;
+}
+.op-45 {
+  opacity: 0.45;
+}
+.op-50 {
+  opacity: 0.5;
+}
+.op-60 {
+  opacity: 0.6;
+}
+.op-65 {
+  opacity: 0.65;
+}
+.op-80 {
+  opacity: 0.8;
+}
+.op-90 {
+  opacity: 0.9;
+}
+
+/******** 背景色 *******/
+.bg-f {
+  background-color: #fff;
+}
+.bg-g {
+  background-color: rgba(79, 217, 11, 1);
+}
+.bg-g-4 {
+  background-color: rgba(79, 217, 11, 0.04);
+}
+.bg-g-10 {
+  background-color: rgba(79, 217, 11, 0.1);
+}
+
+/******** 字体颜色 *******/
+.cl-b {
+  color: rgba(0, 0, 0, 1);
+}
+.cl-b-25 {
+  color: rgba(0, 0, 0, 0.25);
+}
+.cl-g {
+  color: rgba(79, 217, 11, 1);
+}
+.cl-f {
+  color: rgba(255, 255, 255, 1);
+}
+
+.harmony-b {
+  font-family: 'HarmonyOS Sans';
+  font-weight: bold;
+  font-style: normal;
+}
+.harmony-m {
+  font-family: 'HarmonyOS Sans';
+  font-weight: 500;
+  font-style: normal;
+}
+
+/******** 圆角 *******/
+.br-10 {
+  border-radius: 10rpx;
+}
+.br-15 {
+  border-radius: 15rpx;
+}
+.br-20 {
+  border-radius: 20rpx;
+}
+.br-25 {
+  border-radius: 25rpx;
+}
+
+/******** font-size *******/
+.f18 {
+  font-size: 18rpx;
+}
+.f20 {
+  font-size: 20rpx;
+  line-height: 28rpx;
+}
+.f22 {
+  font-size: 22rpx;
+  line-height: 32rpx;
+}
+.f24 {
+  font-size: 24rpx;
+  line-height: 34rpx;
+}
+.f26 {
+  font-size: 26rpx;
+  line-height: 36rpx;
+}
+.f28 {
+  font-size: 28rpx;
+  line-height: 40rpx;
+}
+.f30 {
+  font-size: 30rpx;
+}
+.f32 {
+  font-size: 32rpx;
+  line-height: 44rpx;
+}
+.f34 {
+  font-size: 34rpx;
+}
+.f36 {
+  font-size: 36rpx;
+  line-height: 48rpx;
+}
+.f38 {
+  font-size: 38rpx;
+}
+.f40 {
+  font-size: 40rpx;
+}
+.f42 {
+  font-size: 42rpx;
+}
+.f44 {
+  font-size: 44rpx;
+}
+.f46 {
+  font-size: 46rpx;
+}
+.f48 {
+  font-size: 48rpx;
+}
+.f50 {
+  font-size: 50rpx;
+}
+.f56 {
+  font-size: 56rpx;
+}
+.f60 {
+  font-size: 60rpx;
+  line-height: 84rpx;
+}
+.f70 {
+  font-size: 70rpx;
+}
+.f80 {
+  font-size: 80rpx;
+}
+.f90 {
+  font-size: 90rpx;
+}
+.f100 {
+  font-size: 100rpx;
+}
+/******** font-style *********/
+.bold {
+  font-weight: bold;
+}
+.medium {
+  font-weight: 500;
+}
+.normal {
+  font-weight: normal;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-600 {
+  font-weight: 500;
+}
+/******** font-color *******/
+.tmc {
+  color: #0c0f16;
+}
+.tmc-6 {
+  color: rgba(12, 15, 22, 0.6);
+}
+.tmc-4 {
+  color: rgba(12, 15, 22, 0.4);
+}
+.tips0 {
+  color: #000;
+}
+.tips1 {
+  color: #111;
+}
+.tips2 {
+  color: #222;
+}
+.tips3 {
+  color: #333;
+}
+.tips-e4 {
+  color: #e4e4e4;
+}
+.tips4 {
+  color: #444;
+}
+.tips5 {
+  color: #555;
+}
+.tips6 {
+  color: #666;
+}
+.tips-f7 {
+  color: #f7f7f7;
+}
+.tips7 {
+  color: #777;
+}
+.tips8 {
+  color: #888;
+}
+.tips9 {
+  color: #999;
+}
+.tips-a {
+  color: #aaa;
+}
+.tips-b {
+  color: #bbb;
+}
+.tips-c {
+  color: #ccc;
+}
+.tips-d {
+  color: #ddd;
+}
+.tips-e {
+  color: #eee;
+}
+.tips-f {
+  color: #fff;
+}
+.tips-red {
+  color: #ff4b1f;
+}
+/********* flex *********/
+.flex {
+  display: flex;
+  box-sizing: border-box;
+}
+.flex-row {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+}
+.flex-1 {
+  flex: 1;
+}
+.inline-flex {
+  display: inline-flex;
+  box-sizing: border-box;
+}
+.inline-block {
+  display: inline-block;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.items-start {
+  align-items: flex-start;
+}
+.ai-baseline {
+  align-items: baseline;
+}
+.block {
+  display: block;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+.fw-wrap {
+  flex-wrap: wrap;
+}
+.items-center {
+  align-items: center;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.items-end {
+  align-items: flex-end;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-sb {
+  justify-content: space-between;
+}
+.justify-sa {
+  justify-content: space-around;
+}
+/********* others *********/
+.t-center {
+  text-align: center;
+}
+.t-left {
+  text-align: left;
+}
+.t-right {
+  text-align: right;
+}
+.ellipsis {
+  max-width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.ellipsis-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2; /*限制在一个块元素显示的文本的行数*/
+  -webkit-box-orient: vertical;
+}
+.ellipsis-3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 3; /*限制在一个块元素显示的文本的行数*/
+  -webkit-box-orient: vertical;
+}
+.underline {
+  text-decoration: underline;
+}
+.line-through {
+  text-decoration: line-through;
+}
+.ws {
+  white-space: nowrap;
+}
+.cp {
+  cursor: pointer;
+}
+.mt-10 {
+  margin-top: 10rpx;
+}
+.mt-20 {
+  margin-top: 20rpx;
+}
+.mt-28 {
+  margin-top: 20rpx;
+}
+.mt-30 {
+  margin-top: 30rpx;
+}
+.mt-40 {
+  margin-top: 40rpx;
+}
+.mt-70 {
+  margin-top: 70rpx;
+}
+.ml-10 {
+  margin-left: 10rpx;
+}
+.ml-20 {
+  margin-left: 20rpx;
+}
+.mr-6 {
+  margin-right: 6rpx;
+}
+.mr-8 {
+  margin-right: 8rpx;
+}
+.mr-10 {
+  margin-right: 10rpx;
+}
+.mr-20 {
+  margin-right: 20rpx;
+}
+.mb-20 {
+  margin-bottom: 20rpx;
+}
+.mr-36 {
+  margin-right: 35rpx;
+}
+.mb-40 {
+  margin-bottom: 40rpx;
+}
+.mb-50 {
+  margin-bottom: 50rpx;
+}
+.mb-60 {
+  margin-bottom: 60rpx;
+}
+.btn {
+  border-radius: unset;
+  padding: 0;
+  margin: 0;
+  line-height: initial;
+  background-color: unset;
+  overflow: initial;
+  transition: all ease 300ms;
+  transform-origin: center;
+}
+.button-hover {
+  transform: scale(0.98);
+  filter: unset;
+}
+.btn:after {
+  border: none;
+}
+/***** common *****/
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.across {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.common-animate {
+  transition: all 500ms ease;
+}
+
+.anime-heartbeat {
+  animation: heartbeat 2s infinite;
+}
+
+.sk-animation {
+  animation: skeletonBlink 1.2s ease-in-out infinite;
+}
+
+.reset-btn{
+  border: none;
+  padding: 0;
+  margin: 0;
+  line-height: initial;
+}
+.container {
+  box-sizing: border-box;
+}
+
+@keyframes skeletonBlink {
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.fade-in {
+  animation: fadeIn ease 500ms forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+.w-full {
+  width: 100%;
+}
