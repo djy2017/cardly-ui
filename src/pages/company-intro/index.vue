@@ -34,11 +34,12 @@
           <video
             class="video w-full"
             id="prodVideo"
-            :controls="false"
+            :controls="true"
             :autoplay="false"
+            poster="https://tlwl-oss-public.songshuedu.net/taoli-cardly-mini-ui/imgs/img-company-intro-poster.png"
             :loop="true"
             :muted="true"
-            src="https://tlwl-oss-public.songshuedu.net/taoli-official-website/vedios/2023%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93%E8%A7%86%E9%A2%91.mp4"
+            src="https://tlwl-oss-public.songshuedu.net/taoli-cardly-mini-ui/videos/video-zhuiguang.mov"
             object-fit="cover"
             @loadedmetadata="onVideoLoaded"
           ></video>
