@@ -17,6 +17,7 @@
         class="intro rounded-15px bg-white px-32px pt-0px pb-24px mt-[-30px] relative"
       >
         <view
+          style="border-bottom: 1px solid #d8d8d8"
           class="w-full text-18px text-[#B32C28] leading-26px flex-row items-center justify-between text-left"
         >
           <text class="font-700 mt-10px">桃李家育</text>

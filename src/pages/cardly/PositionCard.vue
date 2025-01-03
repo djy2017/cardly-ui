@@ -26,18 +26,21 @@
 
     <view class="contact flex-row itemx-center justify-center gap-x-16px">
       <view
+        @click="() => makePhoneCall(phone)"
         class="w-72px h-26px rounded-26px text-center leading-26px text-white bg-[#BC2B27] text-12px flex-row items-center gap-x-4px justify-center"
       >
         <image class="w-12px h-12px" src="@/static/icon/icon-phone.png"></image>
         <text>电话</text>
       </view>
       <view
+        @click="() => copyInfo(email, 'email')"
         class="w-72px h-26px rounded-26px text-center leading-26px text-white bg-[#BC2B27] text-12px flex-row items-center gap-x-4px justify-center"
       >
         <image class="w-12px h-12px" src="@/static/icon/icon-email.png"></image>
         <text>邮箱</text>
       </view>
       <view
+        @click="() => copyInfo(wechat, 'wechat')"
         class="w-72px h-26px rounded-26px text-center leading-26px text-white bg-[#BC2B27] text-12px flex-row items-center gap-x-4px justify-center"
       >
         <image
@@ -71,7 +74,33 @@
       type: String,
       default: '',
     },
+    email: {
+      type: String,
+      default: '',
+    },
+    wechat: {
+      type: String,
+      default: '',
+    },
   })
+
+  const makePhoneCall = (phone) => {
+    uni.makePhoneCall({
+      phoneNumber: phone,
+    })
+  }
+
+  const copyInfo = (str, type = 'email') => {
+    uni.setClipboardData({
+      data: str,
+      success: () => {
+        uni.showToast({
+          title: `${type === 'email' ? '邮箱复制成功' : '微信号复制成功'}`,
+          icon: 'none',
+        })
+      },
+    })
+  }
 </script>
 <style scoped lang="scss">
   .intro {

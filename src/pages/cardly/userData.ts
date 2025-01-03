@@ -2,9 +2,9 @@ const userData = {
   avatar: "https://tlwl-oss-public.songshuedu.net/taoli-cardly-mini-ui/avatar/avatar-fjf.png",
   name: '方锦峰',
   enName: 'Fang Jinfeng',
-  email: '',
-  phone: '',
-  sex: '',
+  email: '515746057@qq.com',
+  phone: '15078323971',
+  sex: '男',
   wechat: '',
   positionsList: [
     {
