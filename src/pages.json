@@ -28,6 +28,105 @@
         "navigationBarBackgroundColor": "#497EFF",
         "navigationBarTextStyle": "white"
       }
+    },
+    {
+      "path": "pages/company-intro/index",
+      "style": {
+        "navigationBarTitleText": "公司简介",
+        "navigationStyle": "custom"
+      },
+      "meta": {
+        "navigationBarBackgroundColor": "#497EFF",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/company-honor/index",
+      "style": {
+        "navigationBarTitleText": "企业荣誉",
+        "navigationStyle": "custom"
+      },
+      "meta": {
+        "navigationBarBackgroundColor": "#497EFF",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/business-intro/chineseBu/index",
+      "style": {
+        "navigationBarTitleText": "桃李中文",
+        "navigationStyle": "custom"
+      },
+      "meta": {
+        "navigationBarBackgroundColor": "#497EFF",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/business-intro/bicBu/index",
+      "style": {
+        "navigationBarTitleText": "湾区国际书院",
+        "navigationStyle": "custom"
+      },
+      "meta": {
+        "navigationBarBackgroundColor": "#497EFF",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/business-intro/kidsBu/index",
+      "style": {
+        "navigationBarTitleText": "桃李童学",
+        "navigationStyle": "custom"
+      },
+      "meta": {
+        "navigationBarBackgroundColor": "#497EFF",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/business-intro/internationalBu/index",
+      "style": {
+        "navigationBarTitleText": "桃李国际",
+        "navigationStyle": "custom"
+      },
+      "meta": {
+        "navigationBarBackgroundColor": "#497EFF",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/business-intro/familyEduBu/index",
+      "style": {
+        "navigationBarTitleText": "桃李家育",
+        "navigationStyle": "custom"
+      },
+      "meta": {
+        "navigationBarBackgroundColor": "#497EFF",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/business-intro/fdSchoolBu/index",
+      "style": {
+        "navigationBarTitleText": "桃李未来复读学校",
+        "navigationStyle": "custom"
+      },
+      "meta": {
+        "navigationBarBackgroundColor": "#497EFF",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/business-intro/middleSchoolBu/index",
+      "style": {
+        "navigationBarTitleText": "桃李未来学科素质教育",
+        "navigationStyle": "custom"
+      },
+      "meta": {
+        "navigationBarBackgroundColor": "#497EFF",
+        "navigationBarTextStyle": "white"
+      }
     }
   ],
   "globalStyle": {
