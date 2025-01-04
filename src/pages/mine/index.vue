@@ -1,7 +1,7 @@
 <template>
   <view class="content">
-    <view class="text-area">
-      <text class="title">我的</text>
+    <view class="text-area mt-20px">
+      <text class="title">桃李未来</text>
     </view>
   </view>
 </template>

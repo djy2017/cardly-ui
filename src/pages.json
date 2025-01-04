@@ -3,7 +3,9 @@
     {
       "path": "pages/index/index",
       "style": {
-        "navigationBarTitleText": "首页"
+        "navigationBarTitleText": "首页",
+        "backgroundColor": "#bc2b27",
+        "navigationStyle": "custom"
       }
     },
     {
@@ -22,10 +24,13 @@
       "path": "pages/cardly/index",
       "style": {
         "navigationBarTitleText": "我的名片",
-        "navigationStyle": "custom"
+        "navigationStyle": "custom",
+        "backgroundColorBottom": "#bc2b27",
+        "backgroundColor": "#bc2b27",
+        "backgroundColorTop": "#bc2b27"
       },
       "meta": {
-        "navigationBarBackgroundColor": "#497EFF",
+        "navigationBarBackgroundColor": "#bc2b27",
         "navigationBarTextStyle": "white"
       }
     },
@@ -134,31 +139,31 @@
     "navigationBarTitleText": "uni-app",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
-  },
-  "tabBar": {
-    "color": "#ACACAF",
-    "selectedColor": "#497EFF",
-    "borderStyle": "black",
-    "backgroundColor": "#ffffff",
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "iconPath": "static/tabbar/icon_01.png",
-        "selectedIconPath": "static/tabbar/icon_01-active.png",
-        "text": "首页"
-      },
-      {
-        "pagePath": "pages/infos/index",
-        "iconPath": "static/tabbar/icon_02.png",
-        "selectedIconPath": "static/tabbar/icon_02-active.png",
-        "text": "资讯"
-      },
-      {
-        "pagePath": "pages/mine/index",
-        "iconPath": "static/tabbar/icon_04.png",
-        "selectedIconPath": "static/tabbar/icon_04-active.png",
-        "text": "我的"
-      }
-    ]
   }
+  // "tabBar": {
+  //   "color": "#ACACAF",
+  //   "selectedColor": "#497EFF",
+  //   "borderStyle": "black",
+  //   "backgroundColor": "#ffffff",
+  //   "list": [
+  //     {
+  //       "pagePath": "pages/index/index",
+  //       "iconPath": "static/tabbar/icon_01.png",
+  //       "selectedIconPath": "static/tabbar/icon_01-active.png",
+  //       "text": "首页"
+  //     },
+  //     {
+  //       "pagePath": "pages/infos/index",
+  //       "iconPath": "static/tabbar/icon_02.png",
+  //       "selectedIconPath": "static/tabbar/icon_02-active.png",
+  //       "text": "资讯"
+  //     },
+  //     {
+  //       "pagePath": "pages/mine/index",
+  //       "iconPath": "static/tabbar/icon_04.png",
+  //       "selectedIconPath": "static/tabbar/icon_04-active.png",
+  //       "text": "我的"
+  //     }
+  //   ]
+  // }
 }

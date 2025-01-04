@@ -1,18 +1,22 @@
 <template>
   <view class="page pb-50px">
     <CustomHeader
-      :hasBack="true"
+      :hasBack="false"
       :statusBarBg="'transparent'"
-      :whiteBackIcon="false"
+      :whiteBackIcon="true"
     >
       <view class="w-full t-center"> </view>
     </CustomHeader>
 
     <view class="card-wrap w-full h-full">
-      <image class="avatar w-full h-417px" :src="UserData.avatar" />
+      <image
+        class="avatar w-full h-[46.4vw]"
+        mode="widthFix"
+        :src="UserData.avatar"
+      />
 
       <PositionCard
-        customClass="mt-[-130px] relative"
+        customClass="mt-[-34vw] relative"
         :name="UserData.name"
         :enName="UserData.enName"
         :positionList="UserData.positionsList"
@@ -36,11 +40,25 @@
   import CompanyIntro from './CompanyIntro.vue'
   import Business from './Business.vue'
   import userData from './userData'
+  import { onShareAppMessage } from '@dcloudio/uni-app'
 
   const UserData = ref(userData)
+
+  onShareAppMessage(async () => {
+    return {
+      title: 'www 我的名片',
+      imageUrl:
+        'https://tlwl-oss-public.songshuedu.net/taoli-cardly-mini-ui/avatar/avatar-fjf.png',
+      path: '/pages/cardly/index',
+      params: {},
+    }
+  })
 </script>
 
 <style>
+  page {
+    background: #bc2b27;
+  }
   .page {
     display: flex;
     flex-direction: column;

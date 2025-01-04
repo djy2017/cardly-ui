@@ -1,7 +1,7 @@
 <template>
   <view
     :class="customClass"
-    class="intro rounded-15px bg-white px-16px pt-18px pb-24px mx-16px"
+    class="intro rounded-[4vw] bg-white px-16px pt-18px pb-24px mx-16px"
   >
     <view
       class="w-full name text-24px text-[#1a1a1a] leading-36px mb-16px flex-column text-center"
